@@ -1,8 +1,16 @@
+import { User } from '../components/user/index';
 import '../styles/home.css';
-
 
 export function Home() {
     return (
-        <h1>Consulte seu repositório no github!</h1>
+        <div>
+            <div>
+                <h1>Consulte seus projetos no Git</h1>
+                <div>
+                    <User />
+                </div>
+            </div>
+        </div>
+
     )
 }
